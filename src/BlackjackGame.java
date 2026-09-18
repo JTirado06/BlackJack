@@ -15,8 +15,7 @@ public class BlackjackGame {
         Scanner sc = new Scanner(System.in);
         player.clearHand();
         dealer.clearHand();
-        deck.shuffle();
-
+        deck = new Deck();
         // Initial deal
         player.receiveCard(deck.dealCard());
         dealer.receiveCard(deck.dealCard());
