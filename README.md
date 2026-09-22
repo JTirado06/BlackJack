@@ -34,7 +34,30 @@ cd BlackJack
 javac src/*.java
 java -cp src BlackjackGame
 ```
+## Example Gameplay
 
+```text
+Dealer's hand:
+Hidden
+8 of Hearts
+
+Your hand:
+10 of Clubs
+7 of Diamonds
+Your total: 17
+
+Hit or Stand? stand
+
+Dealer's turn:
+Queen of Spades
+8 of Hearts
+
+Final Totals - You: 17, Dealer: 18
+Dealer wins.
+
+Play again? (yes/no): no
+Thanks for playing!
+```
 
 ## Future Improvements
 
