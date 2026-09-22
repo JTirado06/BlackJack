@@ -1,2 +1,7 @@
-# Project exclude paths
-/out/
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Compiled Java files
+out/
+*.class
