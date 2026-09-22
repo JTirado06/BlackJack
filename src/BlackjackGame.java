@@ -36,15 +36,29 @@ public class BlackjackGame {
                 return;
             }
 
+            String move;
+
+        while (true) {
             System.out.print("Hit or Stand? ");
-            String move = sc.nextLine().toLowerCase();
-            if (move.equals("hit")) {
-                player.receiveCard(deck.dealCard());
-                System.out.println("You drew:");
-                player.showHand(true);
-            } else {
+            move = sc.nextLine().trim().toLowerCase();
+
+            if (move.equals("hit") || move.equals("stand")) {
                 break;
             }
+
+    System.out.println("Invalid choice. Please enter hit or stand.");
+}
+
+if (move.equals("hit"))
+{
+    player.receiveCard(deck.dealCard());
+    System.out.println("You drew:");
+    player.showHand(true);
+}
+else
+{
+    break;
+}
         }
 
         // Dealer's turn
