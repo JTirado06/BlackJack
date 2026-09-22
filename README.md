@@ -1,5 +1,7 @@
 # Blackjack
 
+[![Java Build](https://github.com/JTirado06/BlackJack/actions/workflows/build.yml/badge.svg)](https://github.com/JTirado06/BlackJack/actions/workflows/build.yml)
+
 A command-line Blackjack game written in Java. The player competes against a computer-controlled dealer using standard Blackjack rules.
 
 ## Features
